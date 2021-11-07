@@ -6,7 +6,7 @@ jobs:
     name: build-and-publish-pytalite-to-pypi-and-testpypi
     runs-on: ubuntu-18.04
     steps:
-      - uses: action/checkout@master
+      - uses: actions/checkout@master
       - name: set-up-python-39
         uses: actions/setup-python@v1
         with:
